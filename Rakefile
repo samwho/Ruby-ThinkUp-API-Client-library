@@ -12,14 +12,14 @@ require 'rake/testtask'
 require 'spec/rake/spectask'
 
 spec = Gem::Specification.new do |s|
-  s.name = 'RubyDojo'
+  s.name = 'RubyThinkUpAPI'
   s.version = '0.0.1'
   s.has_rdoc = true
   s.extra_rdoc_files = ['README', 'LICENSE']
-  s.summary = 'Your summary here'
+  s.summary = 'A client library for the ThinkUp API.'
   s.description = s.summary
-  s.author = ''
-  s.email = ''
+  s.author = 'Sam Rose'
+  s.email = 'samwho@lbak.co.uk'
   # s.executables = ['your_executable_here']
   s.files = %w(LICENSE README Rakefile) + Dir.glob("{bin,lib,spec}/**/*")
   s.require_path = "lib"
